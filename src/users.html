@@ -22,13 +22,13 @@
             <a href="index.html" class="nav-link">Dashboard</a>
           </li>
           <li class="nav-item px-2">
-            <a href="posts.html" class="nav-link active">Posts</a>
+            <a href="posts.html" class="nav-link">Posts</a>
           </li>
           <li class="nav-item px-2">
             <a href="categories.html" class="nav-link">Categories</a>
           </li>
           <li class="nav-item px-2">
-            <a href="users.html" class="nav-link">Users</a>
+            <a href="users.html" class="nav-link active">Users</a>
           </li>
         </ul>
 
@@ -56,11 +56,11 @@
     </div>
   </nav>
 
-  <header id="main-header" class="py-2 bg-primary text-white">
+  <header id="main-header" class="py-2 bg-warning text-white">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <h1><i class="fa fa-pencil"></i> Posts</h1>
+          <h1><i class="fa fa-users"></i> Users</h1>
         </div>
       </div>
     </div>
@@ -74,7 +74,7 @@
             <div class="input-group">
                 <input type="text" class="form-control" placeholder="Search">
                 <span class="input-group-btn">
-                    <button class="btn btn-primary">Search</button>
+                    <button class="btn btn-warning">Search</button>
                 </span>
             </div>
         </div>
@@ -82,52 +82,34 @@
     </div>
   </section>
 
-  <!--Posts-->
+  <!--USERS-->
   <section id="posts">
     <div class="container">
       <div class="row">
         <div class="col">
           <div class="card">
             <div class="card-header">
-              <h4>Latest Posts</h4>
+              <h4>Latest Categories</h4>
             </div>
             <table class="table table-striped">
               <thead class="thead-inverse">
                 <tr>
                   <th>#</th>
-                  <th>Title</th>
-                  <th>Category</th>
-                  <th>Date Posted</th>
+                  <th>Name</th>
+                  <th>Email</th>
                   <th></th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td scope="row">1</td>
-                  <td>Post One</td>
-                  <td>Web Development</td>
-                  <td>July 12, 2017</td>
-                  <td><a href="details.html" class="btn btn-secondary">
-                    <i class="fa fa-angle-double-right">Details</i>
-                  </a></td>
+                  <td>John Doe</td>
+                  <td>jbro@gmail.com</td>
                 </tr>
                 <tr>
-                  <td scope="row">2</td>
-                  <td>Post Two</td>
-                  <td>Web Development</td>
-                  <td>July 14, 2017</td>
-                  <td><a href="details.html" class="btn btn-secondary">
-                    <i class="fa fa-angle-double-right">Details</i>
-                  </a></td>
-                </tr>
-                <tr>
-                  <td scope="row">3</td>
-                  <td>Post Three</td>
-                  <td>Business</td>
-                  <td>May 12, 2016</td>
-                  <td><a href="details.html" class="btn btn-secondary">
-                    <i class="fa fa-angle-double-right">Details</i>
-                  </a></td>
+                    <td scope="row">2</td>
+                    <td>Smith Johnson</td>
+                    <td>sjman@gmail.com</td>
                 </tr>
               </tbody>
             </table>
